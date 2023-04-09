@@ -1,0 +1,81 @@
+main {
+    margin-top: 70px;
+    width: 100%;
+    height: 800px;
+    // position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(/app/images/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+
+   
+   
+
+    // &::before {
+    //     content: '';
+    //     position: absolute;
+    //     top: 0px;
+    //     right: 0px;
+    //     bottom: 0px;
+    //     left: 0px;
+    //     background: rgb(0,0,0);
+    //     opacity: 0.25;
+    // }
+}
+
+.email {
+    display: flex;
+    max-width: 950px;
+}
+
+
+h1 {
+    color: white;
+    font-size: 3.5em;  
+}
+
+.box {
+    padding-top: 40px;
+    // position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 40%;
+    // background: black;
+}
+
+.form {
+    width: 532px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+@media (max-width: 768px) {
+    .box {
+        flex-direction: column;
+    }
+    
+    h1 {
+        font-size: 3em;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .form {
+        max-width: 325px;
+        
+    }
+
+    .b2 {
+        width: 325px;
+    }
+}
+

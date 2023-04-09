@@ -1,0 +1,29 @@
+.b1 {
+   background: $blue;
+   color: white;
+   padding: 12px;
+   border: none;
+   border-radius: 5px;
+   font-size: 17px;
+   word-spacing: 0.1em;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.b2 {
+   width: 190px;
+   background: $blue;
+   color: white;
+   padding: 12px;
+   border: none;
+   border-radius: 5px;
+   font-size: 25px;
+   word-spacing: 0.1em;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+button:hover {
+   background: #858d9a;
+   color: black;
+}
